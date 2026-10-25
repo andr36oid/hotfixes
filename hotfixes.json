@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "base_url": "https://github.com/andr36oid/hotfixes/raw/main/",
+  "hotfixes": [
+    {
+      "name": "vold-easyroms-write",
+      "file": "vold-easyroms-write.fix.zip",
+      "title": "Saving to the games card",
+      "description": "let apps write saves to the games SD card under the default sdcardfs storage layer",
+      "build": "v2026-10-24-release|eng.kenny.20261024.175043",
+      "type": "bugfix",
+      "size": 448158,
+      "sha256": "ec318c0a160fcb6177faa79191292024e392ef1a7e42692d5158b178dcbdd711"
+    },
+    {
+      "name": "soysauce-speaker",
+      "file": "soysauce-speaker.fix.zip",
+      "title": "Soy Sauce speaker",
+      "description": "Internal speaker fix for Soy Sauce V04 clones. Plays through the speaker and headphones together (like dArkOSRE), so the speaker works again. The headphone jack switch still mutes the speaker when you plug headphones in.",
+      "build": "v2026-10-24-release|eng.kenny.20261024.175043",
+      "type": "bugfix",
+      "size": 1036,
+      "sha256": "cdeb647a12c90f3a4ca9d344d362fa81de12152bbeb9a32a2ce230a15ee2975f"
+    },
+    {
+      "name": "no-screen-pinning",
+      "file": "no-screen-pinning.fix.zip",
+      "title": "Stop screen pinning",
+      "description": "Removes screen pinning. A stray button press could pin an app and leave you stuck on one screen; this stops that.",
+      "build": "v2026-10-24-release|eng.kenny.20261024.175043",
+      "type": "bugfix",
+      "size": 8900333,
+      "sha256": "5eca4faeee2884aae5f5c9fb62263f0a4f1adc6d686696a6507a4b2d71413422"
+    },
+    {
+      "name": "usb-kbm-preset",
+      "file": "usb-kbm-preset.fix.zip",
+      "title": "USB keyboard & mouse",
+      "description": "Adds a Keyboard & mouse USB preset that needs no image",
+      "build": "v2026-10-24-release|eng.kenny.20261024.175043",
+      "type": "extra",
+      "size": 3112007,
+      "sha256": "e16284bfaf5dde9c6e02de12b40125b5bc35f68fdb8cfeb49d70b7ddbfda360c"
+    }
+  ]
+}
