@@ -41,6 +41,16 @@
       "type": "bugfix",
       "size": 3112007,
       "sha256": "e16284bfaf5dde9c6e02de12b40125b5bc35f68fdb8cfeb49d70b7ddbfda360c"
+    },
+    {
+      "name": "andr36oid-usb-debug",
+      "file": "andr36oid-usb-debug.fix.zip",
+      "title": "USB debugging (adb)",
+      "description": "Debugging only. Keeps the console in USB device (peripheral) mode with adb and USB debugging on at every boot, so a computer stays connected without re-picking Settings > USB mode. Do not plug a charger or powered accessory into the OTG port while this is installed; charge through the separate DC port as usual.",
+      "build": "v2026-10-24-release|eng.kenny.20261024.175043",
+      "type": "debug",
+      "size": 1391,
+      "sha256": "27b8ddcdda055491bb9132931fb10ab7a780406f948742428484eda0205727bb"
     }
   ]
 }

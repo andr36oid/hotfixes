@@ -21,6 +21,10 @@ with is listed next to it below. They're all for the **2026-10-24** release righ
 - **USB keyboard & mouse** - [usb-kbm-preset.fix.zip](https://github.com/andr36oid/hotfixes/raw/main/usb-kbm-preset.fix.zip)
   Adds a USB mode that makes the console act as a keyboard and mouse for another device.
 
+- **USB debugging (adb)** - [andr36oid-usb-debug.fix.zip](https://github.com/andr36oid/hotfixes/raw/main/andr36oid-usb-debug.fix.zip)
+  Debugging only, for developers. Keeps the console in USB device mode with adb and USB debugging turned on across restarts, so a computer stays connected over the OTG port without re-picking Settings > USB mode each time.
+  Warning: while this is installed the OTG port is a USB device for a computer. Do not plug a charger or a powered USB/OTG accessory (controller, stick, keyboard, drive) into the OTG port. Charge through the separate DC port as usual. Delete the ZIP from the `hotfix` folder to go back to normal USB mode switching.
+
 ## How to apply
 
 Easy way: The SD flasher can apply hotfixes to existing and new cards.
