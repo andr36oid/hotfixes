@@ -18,7 +18,7 @@
       "title": "Soy Sauce speaker",
       "description": "Internal speaker fix for Soy Sauce V04 clones. Plays through the speaker and headphones together (like dArkOSRE), so the speaker works again. The headphone jack switch still mutes the speaker when you plug headphones in.",
       "build": "v2026-10-24-release|eng.kenny.20261024.175043",
-      "type": "bugfix",
+      "type": "extra",
       "size": 1036,
       "sha256": "cdeb647a12c90f3a4ca9d344d362fa81de12152bbeb9a32a2ce230a15ee2975f"
     },
