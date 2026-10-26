@@ -15,8 +15,8 @@ with is listed next to it below. They're all for the **2026-10-24** release righ
 - **Soy Sauce speaker** - [soysauce-speaker.fix.zip](https://github.com/andr36oid/hotfixes/raw/main/soysauce-speaker.fix.zip)
   For Soy Sauce V04 clones whose built-in speaker went silent. Sound comes out of the speaker again; plugging in headphones still mutes it.
 
-- **Stop screen pinning** - [no-screen-pinning.fix.zip](https://github.com/andr36oid/hotfixes/raw/main/no-screen-pinning.fix.zip)
-  Stops a stray button press from pinning you to one app and leaving you stuck there.
+- **Power menu leaves screen dim** - [andr36oid-powermenu-dim.fix.zip](https://github.com/andr36oid/hotfixes/raw/main/andr36oid-powermenu-dim.fix.zip)
+  Fixes the screen staying dark after you open the shutdown menu and close it without picking anything. It also includes the screen pinning fix, so it replaces "Stop screen pinning"; delete that one if you have it.
 
 - **USB keyboard & mouse** - [usb-kbm-preset.fix.zip](https://github.com/andr36oid/hotfixes/raw/main/usb-kbm-preset.fix.zip)
   Adds a USB mode that makes the console act as a keyboard and mouse for another device.

@@ -23,14 +23,14 @@
       "sha256": "cdeb647a12c90f3a4ca9d344d362fa81de12152bbeb9a32a2ce230a15ee2975f"
     },
     {
-      "name": "no-screen-pinning",
-      "file": "no-screen-pinning.fix.zip",
-      "title": "Stop screen pinning",
-      "description": "Removes screen pinning. A stray button press could pin an app and leave you stuck on one screen; this stops that.",
+      "name": "andr36oid-powermenu-dim",
+      "file": "andr36oid-powermenu-dim.fix.zip",
+      "title": "Power menu leaves screen dim",
+      "description": "Fixes the screen staying dark after you open the shutdown menu and close it without picking anything. The menu dims and blurs the screen behind it, and that was not always cleared when the menu went away, so the home screen stayed darkened until something redrew it. This build also removes screen pinning, so it replaces the Stop screen pinning hotfix: delete no-screen-pinning.fix.zip if you have it.",
       "build": "v2026-10-24-release|eng.kenny.20261024.175043",
       "type": "bugfix",
-      "size": 8900333,
-      "sha256": "5eca4faeee2884aae5f5c9fb62263f0a4f1adc6d686696a6507a4b2d71413422"
+      "size": 8900616,
+      "sha256": "d81cecd47643b8644cc5f901faaba0436f3ff445a9a831b6cd238d273affda3c"
     },
     {
       "name": "usb-kbm-preset",
