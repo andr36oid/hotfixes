@@ -8,6 +8,10 @@ with is listed next to it below. They're all for the **2026-10-24** release righ
 
 ## How to apply
 
+Easy way: The SD flasher can apply hotfixes to existing and new cards.
+
+The manual way:
+
 1. Put the card in your computer and open the **BOOT** (or EASYROMS) drive. BOOT is recommended.
 2. Make a folder on it called `hotfix`.
 3. Copy the `.fix.zip` into that `hotfix` folder. Do not rename or extract the ZIP file.
