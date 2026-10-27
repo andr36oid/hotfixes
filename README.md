@@ -25,6 +25,9 @@ with is listed next to it below. They're all for the **2026-10-24** release righ
   Debugging only, for developers. Keeps the console in USB device mode with adb and USB debugging turned on across restarts, so a computer stays connected over the OTG port without re-picking Settings > USB mode each time.
   Warning: while this is installed the OTG port is a USB device for a computer. Do not charge the console while it is active: charging is not allowed in USB device mode (the DC port is the only charge port and must not be used in this mode). Do not plug a powered USB or OTG accessory (controller, stick, keyboard, drive) into the OTG port either. Delete the ZIP from the `hotfix` folder to go back to normal USB mode switching.
 
+- **Enable universal hotfixes** - [enable-any.fix.zip](https://github.com/andr36oid/hotfixes/raw/main/enable-any.fix.zip)
+  Lets hotfixes that are marked to work on any build apply on this release. Install it once and future universal hotfixes will work here too, without being tied to one specific build. Safe to leave installed.
+
 ## How to apply
 
 Easy way: The SD flasher can apply hotfixes to existing and new cards.

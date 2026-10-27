@@ -51,6 +51,16 @@
       "type": "debug",
       "size": 1499,
       "sha256": "50b5159e9c170975f863a93011c999c918fbfbffd81cc485b532d3948c1381bf"
+    },
+    {
+      "name": "enable-any",
+      "file": "enable-any.fix.zip",
+      "title": "Enable universal hotfixes",
+      "description": "Lets hotfixes that are marked to work on any build apply on this release. Install it once so universal hotfixes work here without being tied to one specific build. Safe to keep installed; it only updates how the console reads hotfixes.",
+      "build": "v2026-10-24-release|eng.kenny.20261024.175043",
+      "type": "bugfix",
+      "size": 3621,
+      "sha256": "60d9187bb62620cd5f4d21ecf7126a2f0b5483603fcda2b0c3228988c835b640"
     }
   ]
 }
