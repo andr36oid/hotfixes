@@ -28,7 +28,7 @@
       "title": "Power menu leaves screen dim",
       "description": "Fixes the screen staying dark after you open the shutdown menu and close it without picking anything. The menu dims and blurs the screen behind it, and that was not always cleared when the menu went away, so the home screen stayed darkened until something redrew it. This build also removes screen pinning, so it replaces the Stop screen pinning hotfix: delete no-screen-pinning.fix.zip if you have it.",
       "build": "v2026-10-24-release|eng.kenny.20261024.175043",
-      "type": "bugfix",
+      "type": "extra",
       "size": 8900616,
       "sha256": "d81cecd47643b8644cc5f901faaba0436f3ff445a9a831b6cd238d273affda3c"
     },
